@@ -12,7 +12,7 @@ export const useMovies = (query, callback) => {
         setError("");
         setIsLoading(true);
         const res = await fetch(
-          `http://www.omdbapi.com/?apikey=${myAPIKey}&s=${query}`,
+          `https://www.omdbapi.com/?apikey=${myAPIKey}&s=${query}`,
           { signal: controller.signal }
         );
         if (!res.ok)
