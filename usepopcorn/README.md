@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Getting Started with usePopcorn
 
 An simple app for searching and rating your favorite movies!
 
