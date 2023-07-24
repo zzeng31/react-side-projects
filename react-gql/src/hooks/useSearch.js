@@ -4,7 +4,7 @@ const GET_CHARACTER_LOCATIONS = gql`
   query GetCharacterLocations($name: String) {
     characters(filter: { name: $name }) {
       results {
-        userId
+        id
         name
         image
         location {
